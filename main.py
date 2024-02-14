@@ -35,4 +35,4 @@ async def countermeasures(ctx):
 @bot.command()
 async def zahra(ctx, count_heh = 5):
     await ctx.send("zahra 🥐" * count_heh)
-bot.run("MTEyMTc5MDA5NDE2OTM1MDIyNQ.G8Foyv.BR40Lis1YIWvkcDnRUnnWrNNGlPBkNw_lwjYU4")
+bot.run("Bot token in here!")
