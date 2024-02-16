@@ -19,20 +19,18 @@ async def heh(ctx, count_heh = 5):
     await ctx.send("he" * count_heh)
 @bot.command()
 async def global_warming(ctx):
-    await ctx.send("Global warming is the increase in the average temperature of the Earth's atmosphere, oceans, and land that causes climate change around us. 🌍🔥")
+    await ctx.send("Pemanasan global adalah peningkatan suhu rata-rata atmosfer, lautan, dan daratan Bumi yang menyebabkan perubahan iklim di sekitar kita. 🌍🔥")
 @bot.command()
-async def condition(ctx):
-    await ctx.send("Earth's global temperature is 2°-3° C hotter today! 😱")
+async def kondisi(ctx):
+    await ctx.send("Suhu global Bumi saat ini lebih panas 2°-3° C! 😱")
 @bot.command()
-async def causes(ctx):
-    await ctx.send(" ☆ Greenhouse Effect 🏡 \n☆ Industrial effect {air polution, plastic waste, etc} 🏭 \n☆ Increased fuel consumption ⛽ \n☆ forest fires 🌳🔥")
+async def penyebab(ctx):
+    await ctx.send("Efek Rumah Kaca 🏡 \n ☆ Efek industri {polusi udara, sampah plastik, dll} 🏭 \n ☆ Peningkatan konsumsi bahan bakar ⛽ \n ☆ kebakaran hutan 🌳🔥")
 @bot.command()
-async def impacts(ctx):
-    await ctx.send(" ☆ Hotter temperatures ♨️ \n ☆ More intense storms 🌪️ \n ☆ Increased drought \n ☆ Temperature and sea level rise 🌡️ \n ☆  Loss of species 🐾 \n ☆ More health risks 🤒🚑 \n ☆ Food shortages 🥐 \n ☆ Poverty and displacement 🏘️")
+async def dampak(ctx):
+    await ctx.send("Suhu yang lebih panas ♨️ \n ☆ Badai yang lebih hebat 🌪️ \n ☆ Meningkatnya kekeringan \n ☆ Kenaikan suhu dan permukaan air laut 🌡️ \n ☆ Hilangnya spesies 🐾 \n ☆ Lebih banyak risiko kesehatan 🤒🚑 \n ☆ Kekurangan makanan 🥐 \n ☆ Kemiskinan dan pengungsian 🏘️")
 @bot.command()
-async def countermeasures(ctx):
-    await ctx.send(" ☆ Environmental conservation 🌱 \n ☆ Reduce electricity/energy usage 🔌⚡ \n ☆ Apply Reduce, Reuse, Recycle ♻️ \n ☆ Managing waste wisely 🗑️")
-@bot.command()
-async def zahra(ctx, count_heh = 5):
-    await ctx.send("zahra 🥐" * count_heh)
+async def penanggulangan(ctx):
+    await ctx.send("Pelestarian lingkungan 🌱 \n ☆ Mengurangi penggunaan listrik/energi 🔌⚡ \n ☆ Menerapkan Kurangi, Gunakan Kembali, Daur Ulang ♻️ \n ☆ Mengelola sampah dengan bijak 🗑️")
+
 bot.run("Bot token in here!")
